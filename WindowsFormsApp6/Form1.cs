@@ -449,7 +449,7 @@ namespace WindowsFormsApp6
         private void changeThisText()
         {
             Process[] paProcess = Process.GetProcessesByName(System.Diagnostics.Process.GetCurrentProcess().ProcessName);
-            this.Text = "Process Access" + " " + "[" + paProcess.Length + "]";
+            this.Text = "Pointer Access" + " " + "[" + paProcess.Length + "]";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
